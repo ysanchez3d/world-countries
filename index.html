@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Countries</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="regions">
+        <div class="region antarctic" data-region="antarctic">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Antarctica_%28orthographic_projection%29.svg/480px-Antarctica_%28orthographic_projection%29.svg.png"
+            alt="Antartic region map image"
+          />
+          <h2 class="region-name">Antarctic</h2>
+        </div>
+        <div class="region asia" data-region="asia">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Asia_%28orthographic_projection%29_without_New_Guinea.svg/440px-Asia_%28orthographic_projection%29_without_New_Guinea.svg.png"
+            alt="Antartic region map image"
+          />
+          <h2 class="region-name">Asia</h2>
+        </div>
+        <div class="region americas" data-region="americas">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Americas_%28orthographic_projection%29.svg/1200px-Americas_%28orthographic_projection%29.svg.png"
+            alt="Antartic region map image"
+          />
+          <h2 class="region-name">Americas</h2>
+        </div>
+        <div class="region africa" data-region="africa">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Africa_%28orthographic_projection%29.svg/440px-Africa_%28orthographic_projection%29.svg.png"
+            alt="Antartic region map image"
+          />
+          <h2 class="region-name">Africa</h2>
+        </div>
+        <div class="region Oceania" data-region="oceania">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Oceania_%28centered_orthographic_projection%29.svg/400px-Oceania_%28centered_orthographic_projection%29.svg.png"
+            alt="Antartic region map image"
+          />
+          <h2 class="region-name">Oceania</h2>
+        </div>
+        <div class="region europe" data-region="europe">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg/440px-Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg.png"
+            alt="Antartic region map image"
+          />
+          <h2 class="region-name">Europe</h2>
+        </div>
+      </div>
+      <main class="main-content">
+        <h1 id="header-info">
+          Select a Region to see its Countries:
+          <span id="selected-country"></span>
+        </h1>
+        <div id="countries" class="countries"></div>
+      </main>
+    </div>
+  </body>
+</html>
